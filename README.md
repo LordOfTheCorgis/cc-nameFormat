@@ -24,16 +24,8 @@ Simple FiveM resource that checks if a player's in-game name matches their Disco
 
 Create a `config.lua` in the resource folder with the following fields:
 
-```lua
-Config = {
-    DiscordBotToken = "YOUR_BOT_TOKEN",        -- Bot token (string)
-    guildID = "GUILD_ID",                      -- Guild ID (string or number)
+<img width="986" height="672" alt="image" src="https://github.com/user-attachments/assets/6f0773bb-2419-4bc5-999c-2408857b8b0d" />
 
-    -- Optional: role IDs as arrays of strings/numbers
-    NameBypassRoleIDs = { "ROLE_ID_1", "ROLE_ID_2" },
-    RequiredWhitelistRoleIDs = { "ROLE_ID_1", "ROLE_ID_2" },
-}
-```
 
 Notes:
 - `RequiredWhitelistRoleIDs` will enforce that players must have one of the listed roles to join.
